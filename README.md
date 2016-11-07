@@ -2,7 +2,7 @@
 Method described on the paper *Topic Modeling for Short Texts with Cooccurrence 
 Frequency-based Expansion* published in the **Proceedings of Brazilian Conference 
 on Intelligent Systems** (BRACIS) 2016. Work developed together with Marcelo Pita,
-Paulo Bicalho, Anisio Lacerda e Gisele L. Pappa.
+Paulo Bicalho, Anisio Lacerda and Gisele L. Pappa.
 
 CoFE generates pseudo-documents from a given text collection which are larger than the original ones.
 It does so by creating a similarity graph, which is generated exploiting word cooccurrence information
