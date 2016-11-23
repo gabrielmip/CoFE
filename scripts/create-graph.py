@@ -39,11 +39,9 @@ def createGraph(index, nAdjs):
         graph[i1].append((jacc, i2))
         graph[i2].append((jacc, i1))
 
-  # keeps only the nAdjs best adjs for each word
+  # sorts adjs 
   for i1 in range(len(vocab) - 1):
     graph[i1].sort(reverse=True)
-    if len(graph[i1]) > nAdjs:
-      graph[i1] = graph[i1][:nAdjs]
 
   return graph, vocab
 
